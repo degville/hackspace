@@ -68,7 +68,7 @@ void displayNum() {
 // Function to display the chart
 void displayChart() {
   for (int x = 0; x < MAXSTACK; x++) {
-    display.drawLine(x, display.height(), x, display.height(), BLACK);
+    display.drawLine(x, display.height(), x, 0, BLACK);
     display.drawLine(x, display.height(), x, display.height() - temperature_stack.peek(x), WHITE);
   }
 }
