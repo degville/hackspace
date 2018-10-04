@@ -1,5 +1,6 @@
 // Code for Hackspace magazine.
 // Generates a tone from a speaker and modulates its pitch using an ADS envelope.
+// Requirements: Arduino UNO, speaker, 10k ohm resistor and momentary switch.
 
 const int interruptPin = 2;
 const int piezoPin = 3;
