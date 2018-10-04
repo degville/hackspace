@@ -1,3 +1,6 @@
+// Code for Hackspace magazine.
+// Generates a tone from a speaker and modulates its pitch using an ADS envelope.
+
 const int interruptPin = 2;
 const int piezoPin = 3;
 const int pitchEnv[] = {1000, 250, 200}; // Attack time, decay time, sustain value
